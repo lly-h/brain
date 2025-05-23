@@ -1,0 +1,1 @@
+The `abc` library allows us to create abstractions in our code. See [[Abstraction]] for a good example of how to use the `ABC` class and `@abstractmethod` decorator.

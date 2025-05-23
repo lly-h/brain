@@ -30,3 +30,6 @@ Python is a bit different since it doesn't *truly* make the property private, it
 ***In Python, since there is no true way to make a property private, anything prefixed with one or two underscores is really just a strong suggestion.***
 
 Other languages, like Go, have true encapsulation.
+
+## <u>What's the difference between this and [[Abstraction]]?</u>
+Great question. Who cares? Kind of. You'll notice they are really similar. What it really boils down to: <u>abstraction</u> emphasizes *exposing the right features* and <u>encapsulation</u> emphasizes *bundling data and methods, and restricting access to inner workings*

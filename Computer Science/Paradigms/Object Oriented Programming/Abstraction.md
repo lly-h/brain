@@ -53,3 +53,6 @@ Let's break down the above example:
 3. Create 2 methods with `@abstractmethod` to be used by subclasses - this ties into [[Polymorphism]]!
 4. Define a class called `Circle` that inherits from `Shape`
 5. Modify the 2 passed methods to make them specific to `Circle`
+
+## <u>What's the difference between this and [[Encapsulation]]?</u>
+Great question. Who cares? Kind of. You'll notice they are really similar. What it really boils down to: <u>abstraction</u> emphasizes *exposing the right features* and <u>encapsulation</u> emphasizes *bundling data and methods, and restricting access to inner workings*

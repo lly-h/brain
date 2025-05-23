@@ -18,7 +18,7 @@ class Archer:
 		self.health -= 10
 		return self.health
 ```
-These classes would <u>***NOT***</u> have identical method signatures if they were written like this instead:
+These classes would <u>**NOT**</u> have identical method signatures if they were written like this instead:
 ```py
 class Human:
 	def hit_by_fire(self):
@@ -31,3 +31,5 @@ class Archer:
 		return self.health
 ```
 The reason they are not identical is because in the `Archer` class, the `hit_by_fire` method, unlike the `Human` class, asks for another argument, `dmg`.
+
+The difference between the above examples, and the example found in [[Abstraction]], is that using `abstractmethod` from the `abc` library says the subclass <u>**MUST**</u> use any methods decorated with `@abstractmethod` from the superclass, or else you get a `TypeError`. This is where function signatures become really important!
