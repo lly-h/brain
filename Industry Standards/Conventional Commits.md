@@ -46,29 +46,6 @@ Fixes #123
 | build | Build system or external dependency changes |
 | ops | Operational, infrastructure, or deployment changes |
 
-### Common Scope Types
-
-| Scope     | Description                                         |
-|-----------|----------------------------------------------------|
-| api       | Changes related to the API layer or endpoints       |
-| auth      | Authentication and authorization logic              |
-| config    | Configuration files or settings                     |
-| ci        | Continuous integration scripts/configs              |
-| deps      | Dependencies or package management                  |
-| docs      | Documentation files or content                      |
-| build     | Build system or scripts                             |
-| test      | Test files, test infrastructure, or test cases      |
-| ui        | User interface components or styling                |
-| db        | Database models, migrations, or queries             |
-| core      | Core application logic or utilities                 |
-| cli       | Command-line interface tools or scripts             |
-| i18n      | Internationalization and localization               |
-| logging   | Logging and monitoring                              |
-| parser    | Parsing logic or syntax handling                    |
-| router    | Routing and navigation                              |
-| service   | Service layer or business logic                     |
-| storage   | File system or storage-related code                 |
-
 [^3][^4][^5][^7][^8]
 
 ### Best Practices
