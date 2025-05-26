@@ -1,6 +1,6 @@
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
-## Industry Standard Git Commit Message Convention
+## Most Common Git Commit Message Convention
 
 The most widely adopted and recommended convention for Git commit messages in the industry is the **Conventional Commits** specification. This format is used by major open-source projects (such as Angular) and is favored for its clarity, structure, and compatibility with automated tools and semantic versioning[^3][^7][^8].
 
